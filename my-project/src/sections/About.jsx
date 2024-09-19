@@ -12,7 +12,7 @@ const About = () => {
 
     setTimeout(() => {
       setHasCopied(false);
-    }, 2000);
+    }, 3000);
   };
 
   return (

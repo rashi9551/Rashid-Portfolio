@@ -8,13 +8,17 @@ import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
 import Target from "../components/Target";
 import ReactLogo from "../components/ReactLogo";
+import Cube from "../components/Cube";
+import Rings from "../components/Ring";
+import HeroCamera from "../components/HeroCamera";
+import Button from "../components/Button";
 
 const Hero = () => {
-  const isMobile = useMediaQuery({maxWidth: 768})
-  const isSmall = useMediaQuery({maxWidth: 440})
-  const isTab = useMediaQuery({minWidth: 768, maxWidth: 1024})
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isSmall = useMediaQuery({ maxWidth: 440 });
+  const isTab = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
 
-  const size = calculateSizes(isSmall, isMobile,isTab)
+  const size = calculateSizes(isSmall, isMobile, isTab);
 
   // const x = useControls("HackerRoom", {
   //   positionX: {
@@ -71,22 +75,31 @@ const Hero = () => {
         <Canvas className="w-full h-full">
           <Suspense fallback={CanvasLoader}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
-            <HackerRoom
-              scale={size.deskScale}
-              position={size.deskPosition}
-              rotation={[0, -Math.PI / 2, 0]}
-              // scale={x.scale}
-              // position={[x.positionX, x.positionY, x.positionZ]}
-              // rotation={[x.rotationX, x.rotationY, x.rotationZ]}
-            />
+            <HeroCamera isMobile={isMobile}>
+              <HackerRoom
+                scale={size.deskScale}
+                position={size.deskPosition}
+                rotation={[0, -Math.PI / 2, 0]}
+                // scale={x.scale}
+                // position={[x.positionX, x.positionY, x.positionZ]}
+                // rotation={[x.rotationX, x.rotationY, x.rotationZ]}
+              />
+            </HeroCamera>
             <group>
-              <Target position={size.targetPosition}/>
+              <Target position={size.targetPosition} />
               <ReactLogo position={size.reactLogoPosition} />
+              <Cube position={size.cubePosition} />
+              <Rings position={size.ringPosition} />
             </group>
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
           </Suspense>
         </Canvas>
+      </div>
+      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+        <a href="#about" className="w-fit">
+          <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+        </a>
       </div>
     </section>
   );

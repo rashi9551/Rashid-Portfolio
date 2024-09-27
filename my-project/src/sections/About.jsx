@@ -107,7 +107,7 @@ const About = () => {
               />
             </div>
 
-            {/* <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
+            {/* <div className=" rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
               <Globe
                 height={326}
                 width={326}

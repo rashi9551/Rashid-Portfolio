@@ -6,11 +6,16 @@ import { technologies } from "../constants/index";
 
 const Tech = () => {
   return (
-    <div className="flex flex-row flex-wrap gap-10 justify-center">
-      {technologies.map((technology) => (
-        <div className="w-16 h-16" key={technology.name}>
-          <BallCanvas icon={technology.icon} />
-					<p className="grid-subtext *:text-center">{technology?.name?.split(' ').slice(0,1)}</p>
+    <div className="flex flex-row flex-wrap gap-6 justify-center">
+      {technologies.map((tech) => (
+        <div
+          className="w-20 h-20 flex flex-col items-center justify-center"
+          key={tech.name}
+        >
+          <BallCanvas icon={tech.icon} />
+          <p className="grid-subtext2 text-center">
+            {tech?.name}
+          </p>
         </div>
       ))}
     </div>

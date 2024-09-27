@@ -1,5 +1,4 @@
 import html  from "../assets/html.png";
-import css  from "../assets/css.png";
 import javascript  from "../assets/javascript.png";
 import typescript  from "../assets/typeScript.png";
 import reactjs  from "../assets/reactjs.png";
@@ -7,10 +6,15 @@ import redux  from "../assets/redux.png";
 import tailwind  from "../assets/tailwind.png";
 import nodejs  from "../assets/nodejs.png";
 import mongodb  from "../assets/mongodb.png";
-import threejs  from "../assets/threejs.svg";
 import git  from "../assets/git.png";
-import figma  from "../assets/figma.png";
 import docker  from "../assets/docker.png";
+import react  from "../assets/react.svg";
+import nextjs  from "../assets/nextjs.svg";
+import nestjs  from "../assets/nestjs.svg";
+import express  from "../assets/express.svg";
+import typeorm  from "../assets/typeorm.svg";
+import mysql  from "../assets/mysql.svg";
+import github  from "../assets/github.svg";
 
 export const navLinks = [
   {
@@ -329,56 +333,69 @@ export const workExperiences = [
 ];
 
 export const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML5",
+  //   icon: html,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "ReactJS",
+    icon: react,
   },
   {
     name: "TypeScript",
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Nextjs",
+    icon: nextjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "RTK",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: "Tailwind",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "NodeJS",
     icon: nodejs,
+  },
+  {
+    name: "Nest.js",
+    icon: nestjs,
+  },
+  {
+    name: "Express.js",
+    icon: express,
+  },
+  {
+    name: "TypeORM",
+    icon: typeorm,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
+
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "GitHub",
+  //   icon: github,
+  // },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ];

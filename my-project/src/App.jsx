@@ -8,13 +8,13 @@ import Contact from './sections/Contact'
 import Footer from './sections/Footer'
 import WorkExperience from './sections/WorkExperience'
 import InfiniteMovingCards from './components/ui/InfiniteMovingCard'
-import whatsappChat from './components/whatsappChat'
+import WhatsappChat from './components/WhatsappChat'
 
 
 const App = () => {
   return (
     <main className='max-w-7xl mx-auto'>
-      <whatsappChat />
+      <WhatsappChat />
       <Navbar />
       <Hero />
       <About />

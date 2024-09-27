@@ -131,7 +131,7 @@ const Hero = () => {
             <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
               Hi, I am Mubasir <span className="waving-hand">👋</span>
             </p>
-            <p className="hero_tag text-gray_gradient">
+            <p className="hero_tag text-gray_gradient pb-10">
             Full Stack Developer. Tech Enthusiast.
             </p>
           </div>
@@ -168,12 +168,12 @@ const Hero = () => {
               />
             </HeroCamera>
 
-            <group>
+            {/* <group>
               <Target position={sizes.targetPosition} />
               <ReactLogo position={sizes.reactLogoPosition} />
               <Rings position={sizes.ringPosition} />
               <Cube position={sizes.cubePosition} />
-            </group>
+            </group> */}
 
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />

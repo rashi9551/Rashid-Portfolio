@@ -1,13 +1,13 @@
 import React from "react";
 import whatsappIcon from "../assets/whatsapp.png";  // Ensure you have the correct path to the WhatsApp icon
 
-const whatsappChat = () => {
+const WhatsappChat = () => {
   return (
     <a
-      href="https://wa.me/yourphonenumber"  // Replace with your WhatsApp number
+      href="https://wa.me/+917736612328"  // Replace with your WhatsApp number
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-4 right-4 bg-green-500 hover:bg-green-600 text-white rounded-full p-3 shadow-lg"
+      className="fixed bottom-10 right-10 bg-green-500 hover:bg-green-600 text-white rounded-full p-2 shadow-lg"
     >
 
       <img
@@ -19,4 +19,4 @@ const whatsappChat = () => {
   );
 };
 
-export default whatsappChat;
+export default WhatsappChat;

@@ -1,20 +1,20 @@
-import html  from "../assets/html.png";
-import javascript  from "../assets/javascript.png";
-import typescript  from "../assets/typeScript.png";
-import reactjs  from "../assets/reactjs.png";
-import redux  from "../assets/redux.png";
-import tailwind  from "../assets/tailwind.png";
-import nodejs  from "../assets/nodejs.png";
-import mongodb  from "../assets/mongodb.png";
-import git  from "../assets/git.png";
-import docker  from "../assets/docker.png";
-import react  from "../assets/react.svg";
-import nextjs  from "../assets/nextjs.svg";
-import nestjs  from "../assets/nestjs.svg";
-import express  from "../assets/express.svg";
-import typeorm  from "../assets/typeorm.svg";
-import mysql  from "../assets/mysql.svg";
-import github  from "../assets/github.svg";
+import html from "../assets/html.png";
+import javascript from "../assets/javascript.png";
+import typescript from "../assets/typeScript.png";
+import reactjs from "../assets/reactjs.png";
+import redux from "../assets/redux.png";
+import tailwind from "../assets/tailwind.png";
+import nodejs from "../assets/nodejs.png";
+import mongodb from "../assets/mongodb.png";
+import git from "../assets/git.png";
+import docker from "../assets/docker.png";
+import react from "../assets/react.svg";
+import nextjs from "../assets/nextjs.svg";
+import nestjs from "../assets/nestjs.svg";
+import express from "../assets/express.svg";
+import typeorm from "../assets/typeorm.svg";
+import mysql from "../assets/mysql.svg";
+import github from "../assets/github.svg";
 
 export const navLinks = [
   {
@@ -42,47 +42,47 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
-    img: "assets/review1.png",
+    name: "Mohammed V C",
+    position: "Electrical Engineer, Doha",
+    img: "assets/mammu.jpg",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Mubasir was fantastic to work with. He developed a billing app that perfectly suited our needs, with a user-friendly interface and robust functionality. His expertise and attention to detail made the entire process seamless.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
-    img: "assets/review2.png",
+    name: "Jithin Raj",
+    position: "Founder of Techrender",
+    img: "assets/jithin.jpg",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "As the founder of a company, I’ve had the pleasure of working with an exceptional full-stack developer. He excels in both frontend and backend development, delivering high-quality work consistently. Beyond his technical skills, he’s a great person—reliable, professional, and a true team player.",
   },
   {
     id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
-    img: "assets/review3.png",
+    name: "Mohammed",
+    position: "MERN Stack Developer at Techrender",
+    img: "assets/mohammed.jpg",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Working alongside my colleague has been an outstanding experience. He brings a perfect balance of frontend and backend expertise, consistently delivering high-quality results. His collaborative approach and problem-solving mindset make him a great asset to any team.",
   },
   {
     id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
+    name: "Krishnadas",
+    position: "Team Lead at Techrender",
     img: "assets/review4.png",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+      "As a team lead, I’ve had the privilege of mentoring a talented junior developer. He’s highly skilled in both frontend and backend development and demonstrates a strong willingness to learn and grow. His dedication and positive attitude make him a valuable member of our team.",
   },
 ];
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "coDraw - Real-Time Collaborative Drawing Platform",
+    desc: "coDraw is an interactive platform that enables users to draw together in real-time while communicating seamlessly. It fosters creativity and collaboration, making it ideal for brainstorming, design, and artistic expression.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
+      "Developed with Next.js, TypeScript, Canvas API, Socket.io, and Tailwind CSS, coDraw offers a smooth, responsive, and engaging experience for multi-user collaboration.",
     href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
-    texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+    texture: "/textures/project/codrawv.mp4",
+    logo: "/assets/project-logo4.png",
     logoStyle: {
       backgroundColor: "#2A1816",
       border: "0.2px solid #36201D",
@@ -92,8 +92,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Next.js",
+        path: "/assets/nextjs.svg",
       },
       {
         id: 2,
@@ -107,19 +107,19 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Html5 Canvas",
+        path: "/assets/html.png",
       },
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "eduFlex - Online Learning Platform",
+    desc: "eduFlex is an innovative online education platform designed to provide high-quality, accessible learning experiences. Offering a vast library of courses across various domains, it empowers learners to gain new skills and achieve their goals.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
+      "Developed as a robust MERN stack application, eduFlex leverages MongoDB, Express.js, React, and Node.js to ensure seamless performance, scalability, and an engaging user experience.",
     href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
+    texture: "/textures/project/eduflex.mp4",
+    logo: "/assets/project-logo5.png",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
@@ -129,34 +129,34 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "Ract.js",
+        path: "assets/reactjs.png",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "Express.js",
+        path: "assets/express.svg",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "Node.js",
+        path: "/assets/nodejs.png",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "mongoDB",
+        path: "/assets/mongodb.png",
       },
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "Hazi - Dynamic E-Commerce Platform",
+    desc: "Hazi is a cutting-edge e-commerce solution that simplifies online shopping for both businesses and customers. Featuring a user-friendly interface and secure transaction handling, it streamlines the buying and selling experience.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
+      "Built using JavaScript, MongoDB, Node.js, and Handlebars (HBS), Hazi ensures a fast, efficient, and highly customizable platform tailored for modern e-commerce needs.",
     href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-    texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
+    texture: "/textures/project/hazi.mp4",
+    logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
       background:
@@ -164,101 +164,27 @@ export const myProjects = [
       border: "0.2px solid rgba(208, 213, 221, 1)",
       boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
     },
-    spotlight: "/assets/spotlight3.png",
+    spotlight: "/assets/spotlight2.png",
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
+        name: "JavaScript",
+        path: "assets/javascript.png",
       },
       {
         id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
+        name: "HBS",
+        path: "assets/html.png",
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "Node.js",
+        path: "/assets/nodejs.png",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
-    subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-    texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
-    logoStyle: {
-      backgroundColor: "#0E1F38",
-      border: "0.2px solid #0E2D58",
-      boxShadow: "0px 0px 60px 0px #2F67B64D",
-    },
-    spotlight: "/assets/spotlight4.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
-    subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
-    logoStyle: {
-      backgroundColor: "#1C1A43",
-      border: "0.2px solid #252262",
-      boxShadow: "0px 0px 60px 0px #635BFF4D",
-    },
-    spotlight: "/assets/spotlight5.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "mongoDB",
+        path: "/assets/mongodb.png",
       },
     ],
   },
@@ -302,34 +228,35 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "Techrender",
+    pos: "Junior Full stack developer",
+    duration: "2024-Jan - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "As a Junior Full Stack Developer, I am responsible for developing and maintaining both front-end and back-end features, ensuring seamless integration and high performance across the tech stack.",
+    icon: "/assets/techrender.png",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "Brototype",
+    pos: "MERN stack developer intern",
+    duration: "2022-Dec - 2023-Dec",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "During my MERN Stack Developer Internship, I built and optimized full-stack applications using MongoDB, Express, React, and Node.js. I learned numerous new technologies and best practices, and it felt like working in a real company environment, preparing me for future professional challenges.",
+    icon: "/assets/brototype.png",
     animation: "clapping",
   },
-  {
-    id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
-    title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
-    animation: "salute",
-  },
+
+  // {
+  //   id: 3,
+  //   name: "Notion",
+  //   pos: "Junior Web Developer",
+  //   duration: "2019 - 2020",
+  //   title:
+  //     "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+  //   icon: "/assets/notion.svg",
+  //   animation: "salute",
+  // },
 ];
 
 export const technologies = [

@@ -47,7 +47,7 @@ const Hero = () => {
               </a>
             </Tooltip>
             <Tooltip title="github">
-              <a href="https://github.com/mubasir-umbi">
+              <a href="https://github.com/mubasirvc">
                 <img
                   src="./assets/github.svg"
                   alt="github"

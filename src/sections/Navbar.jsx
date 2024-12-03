@@ -19,7 +19,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/90  ">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/90 px-5 ">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center py-1 mx-auto c-space border-gray-700 mt-3 border rounded-lg">
           <a href="/" className="">

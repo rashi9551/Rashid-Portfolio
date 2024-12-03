@@ -65,10 +65,10 @@ const Contact = () => {
   };
 
   return (
-    <section className="c-space mb-0 md:mb-40" id="contact">
+    <section className="c-space mb-0 lg:mb-40" id="contact">
       {alert.show && <Alert {...alert} />}
 
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
+      <div className="relative flex items-center justify-center flex-col">
         <img
           src="/assets/terminal.png"
           alt="terminal-bg"

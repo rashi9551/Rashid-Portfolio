@@ -6,19 +6,19 @@ import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import WorkExperience from "./sections/WorkExperience";
-import InfiniteMovingCards from "./components/ui/InfiniteMovingCard";
 import WhatsappChat from "./components/WhatsappChat";
+import Clients from "./sections/Clients";
 
 const App = () => {
   return (
-    <main className="max-w-full mx-16 mt-5 md:mt-16">
+    <main className="max-w-full mx-0 lg:mx-16 mt-5 md:mt-16">
       <WhatsappChat />
       <Navbar />
       <Hero />
       <About />
       <Projects />
       <WorkExperience />
-      <InfiniteMovingCards />
+      <Clients />
       <Contact />
       <Footer />
     </main>

@@ -13,10 +13,11 @@ const Hero = () => {
         <h4 className="text-lg font-semibold text-white xl:text-2xl">
           Hey There
         </h4>
-        <h1 className="xl:text-7xl sm:text-6xl xs:text-3xl font-semibold font-serif mt-2 text-white">
-          I'm
-          <span className="ml-6">Mubasir</span>
+        <h1 className="xl:text-7xl sm:text-6xl xs:text-3xl font-semibold font-serif mt-2 text-white flex items-center space-x-2">
+          <span>I'm</span>
+          <span>Mubasir</span>
         </h1>
+
         <h1 className="sm:text-6xl xs:text-3xl font-semibold font-serif text-white">
           V C
         </h1>
@@ -35,7 +36,7 @@ const Hero = () => {
           >
             <span>Get in touch</span>{" "}
           </a>
-          <div className="flex gap-5 mt-10 ml-3">
+          <div className="flex gap-5 mt-10 ml-0 md:ml-3">
             <Tooltip title="linkedin">
               <a href="https://www.linkedin.com/in/mubasir-vc/" className="">
                 <img

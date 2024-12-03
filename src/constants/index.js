@@ -1,6 +1,6 @@
 import html from "../assets/html.png";
 import javascript from "../assets/javascript.png";
-import typescript from "../assets/typeScript.png";
+import typescript from "../assets/typescript.png";
 import reactjs from "../assets/reactjs.png";
 import redux from "../assets/redux.png";
 import tailwind from "../assets/tailwind.png";

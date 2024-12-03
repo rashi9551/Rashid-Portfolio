@@ -1,195 +1,92 @@
-// import { Leva } from 'leva';
-// import { Suspense } from 'react';
-// import { Canvas } from '@react-three/fiber';
-// import { useMediaQuery } from 'react-responsive';
-// import { PerspectiveCamera } from '@react-three/drei';
-
-// import Cube from '../components/Cube.jsx';
-// import Rings from '../components/Ring.jsx';
-// import ReactLogo from '../components/ReactLogo.jsx';
-// import Button from '../components/Button.jsx';
-// import Target from '../components/Target.jsx';
-// import CanvasLoader from '../components/CanvasLoader.jsx';
-// import HeroCamera from '../components/HeroCamera.jsx';
-// import { calculateSizes } from '../constants/index.js';
-// import { HackerRoom } from '../components/HackerRoom.jsx';
-
-// const Hero = () => {
-//   // Use media queries to determine screen size
-//   const isSmall = useMediaQuery({ maxWidth: 440 });
-//   const isMobile = useMediaQuery({ maxWidth: 768 });
-//   const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
-
-//   const sizes = calculateSizes(isSmall, isMobile, isTablet);
-
-//   return (
-//     <section className="min-h-screen w-full flex" id="home">
-//       <div className="w-1/2 flex flex-col mt-20 c-space gap-3  justify-center items-center">
-//         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-//           Hi, I am Mubasir <span className="waving-hand">👋</span>
-//         </p>
-//         <p className="hero_tag text-gray_gradient">Building Products & Brands</p>
-//         <a href="#about" className="w-fit">
-//           <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
-//         </a>
-//         <div className="flex gap-3">
-//           <div className="social-icon">
-//             <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-//           </div>
-//           <div className="social-icon">
-//             <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
-//           </div>
-//           <div className="social-icon">
-//             <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-//           </div>
-//         </div>
-
-//       </div>
-
-//       <div className="w-1/2 flex justify-center items-center" >
-//         <Canvas className="w-full h-full pb-40">
-//           <Suspense fallback={<CanvasLoader />}>
-//             {/* To hide controller */}
-//             <Leva hidden />
-//             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
-
-//             <HeroCamera isMobile={isMobile}>
-//               <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.1, -Math.PI, 0]} />
-//             </HeroCamera>
-
-//             <group>
-//               {/* <Target position={sizes.targetPosition} />
-//               <ReactLogo position={sizes.reactLogoPosition} /> */}
-//               {/* <Rings position={sizes.ringPosition} /> */}
-//               {/* <Cube position={sizes.cubePosition} /> */}
-//             </group>
-
-//             <ambientLight intensity={1} />
-//             <directionalLight position={[10, 10, 10]} intensity={0.5} />
-//           </Suspense>
-//         </Canvas>
-//       </div>
-
-//       {/* <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-//         <a href="#about" className="w-fit">
-//           <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
-//         </a>
-//       </div> */}
-//     </section>
-//   );
-// };
-
-// export default Hero;
-
-import { Leva } from "leva";
-import { Suspense } from "react";
-import { Canvas } from "@react-three/fiber";
-import { useMediaQuery } from "react-responsive";
-import { PerspectiveCamera } from "@react-three/drei";
-
-import Cube from "../components/Cube.jsx";
-import Rings from "../components/Ring.jsx";
-import ReactLogo from "../components/ReactLogo.jsx";
-import Button from "../components/Button.jsx";
-import Target from "../components/Target.jsx";
-import CanvasLoader from "../components/CanvasLoader.jsx";
-import HeroCamera from "../components/HeroCamera.jsx";
-import { calculateSizes } from "../constants/index.js";
-import { HackerRoom } from "../components/HackerRoom.jsx";
-import { Spotlight } from "../components/ui/Spotlight.jsx";
-import LampContainer from "../components/ui/LampContainer.jsx";
-import { motion } from "framer-motion";
+import React from "react";
+import Tooltip from "../components/Tooltip";
 
 const Hero = () => {
-  const isSmall = useMediaQuery({ maxWidth: 440 });
-  const isMobile = useMediaQuery({ maxWidth: 768 });
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
-
-  const sizes = calculateSizes(isSmall, isMobile, isTablet);
-
   return (
-    <section
-      className="min-h-screen w-full flex flex-col relative mt-10"
+    <div
+      className="items-center w-10/12 grid-cols-2 mx-auto overflow-x-hidden lg:grid md:py-14 lg:py-24 xl:py-14 lg:mt-3 xl:mt-5"
+      data-aos="fade-right"
+      data-aos-duration="800"
       id="home"
     >
-      <LampContainer>
-        <motion.h1
-          initial={{ opacity: 0.5, y: 100 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{
-            delay: 0.3,
-            duration: 0.8,
-            ease: "easeInOut",
-          }}
-          className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
-        >
-          {/* <p className="sm:text-3xl text-xl font-medium text-white text-center ">
-            Hi, I am Mubasir <span className="waving-hand">👋</span>
-          </p>
-          <p className="hero_tag text-gray_gradient">Code Meets Creativity</p> */}
-          <div className="w-full mx-auto flex flex-col sm:mt-8 c-space ">
-            <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-              Hi, I am Mubasir <span className="waving-hand">👋</span>
-            </p>
-            <p className="hero_tag text-gray_gradient pb-10">
-            Full Stack Developer. Tech Enthusiast.
-            </p>
+      <div className="pr-2 md:mb-14 py-14 md:py-0">
+        <h4 className="text-lg font-semibold text-white xl:text-2xl">
+          Hey There
+        </h4>
+        <h1 className="xl:text-7xl sm:text-6xl xs:text-3xl font-semibold font-serif mt-2 text-white">
+          I'm
+          <span className="ml-6">Mubasir</span>
+        </h1>
+        <h1 className="sm:text-6xl xs:text-3xl font-semibold font-serif text-white">
+          V C
+        </h1>
+        <h4 className="text-blue-600 mt-4 lg:text-2xl">
+          --Full Stack Developer. Tech Enthusiast.
+        </h4>
+        <p className="py-4 text-lg text-gray-500 2xl:py-8 md:py-6 2xl:pr-5">
+          Experienced full-stack developer with 2+ years of expertise in
+          JavaScript, React, Next.js, Node.js, NestJS, and some React Native
+          experience.
+        </p>
+        <div className="mt-4">
+          <a
+            href="#contact"
+            className="px-5 py-3 text-lg tracking-wider text-white bg-blue-600 rounded-lg md:px-8 hover:bg-blue-500 group"
+          >
+            <span>Get in touch</span>{" "}
+          </a>
+          <div className="flex gap-5 mt-10 ml-3">
+            <Tooltip title="linkedin">
+              <a href="https://www.linkedin.com/in/mubasir-vc/" className="">
+                <img
+                  src="./assets/linkedin.png"
+                  alt="linkedin"
+                  className="w-6 h-6 transform transition-transform duration-300 hover:scale-110"
+                />
+              </a>
+            </Tooltip>
+            <Tooltip title="github">
+              <a href="https://github.com/mubasir-umbi">
+                <img
+                  src="./assets/github.svg"
+                  alt="github"
+                  className="w-6 h-6 transform transition-transform duration-300 hover:scale-110"
+                />
+              </a>
+            </Tooltip>
+            <Tooltip title="leetcode">
+              <a href="https://leetcode.com/u/mubasirvc/">
+                <img
+                  src="./assets/leetcode.svg"
+                  alt="leetcode"
+                  className="w-6 h-6 transform transition-transform duration-300 hover:scale-110"
+                />
+              </a>
+            </Tooltip>
+            <Tooltip title="Resume">
+              <a href="https://leetcode.com/u/mubasirvc/">
+                <img
+                  src="./assets/user-profile.png"
+                  alt="resume"
+                  className="w-6 h-6 transform transition-transform duration-300 hover:scale-110"
+                />
+              </a>
+            </Tooltip>
           </div>
-          {/* <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-            a Full Stack Developer and tech enthusiast dedicated to building
-            innovative, scalable, and user-friendly web applications. Whether
-            it's crafting clean front-end interfaces or building strong back-end
-            systems, I create digital solutions that leave a lasting impact.
-          </p> */}
-        </motion.h1>
-      </LampContainer>
-      {/* <LampContainer> */}
-      {/* <div className="w-full mx-auto flex flex-col sm:mt-24 mt-10 c-space gap-3 ">
-        <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-          Hi, I am Mubasir <span className="waving-hand">👋</span>
-        </p>
-        <p className="hero_tag text-gray_gradient">
-          Building Products & Brands
-        </p>
-      </div> */}
-      {/* </LampContainer> */}
-
-      <div className="w-full h-full absolute inset-0 ">
-        <Canvas className="w-full h-full">
-          <Suspense fallback={<CanvasLoader />}>
-            <Leva hidden />
-            <PerspectiveCamera makeDefault position={[0, 0, 30]} />
-
-            <HeroCamera isMobile={isMobile}>
-              <HackerRoom
-                scale={sizes.deskScale}
-                position={sizes.deskPosition}
-                rotation={[0.1, -Math.PI, 0]}
-              />
-            </HeroCamera>
-
-            {/* <group>
-              <Target position={sizes.targetPosition} />
-              <ReactLogo position={sizes.reactLogoPosition} />
-              <Rings position={sizes.ringPosition} />
-              <Cube position={sizes.cubePosition} />
-            </group> */}
-
-            <ambientLight intensity={1} />
-            <directionalLight position={[10, 10, 10]} intensity={0.5} />
-          </Suspense>
-        </Canvas>
+        </div>
       </div>
-      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-        <a href="#about" className="w-fit">
-          <Button
-            name="Let's work together"
-            isBeam
-            containerClass="sm:w-fit w-full sm:min-w-96"
-          />
-        </a>
+
+      <div className="pb-10 overflow-hidden md:p-10 lg:p-0 sm:pb-0">
+        <img
+          id="heroImg1"
+          className="transition-all duration-300 ease-in-out hover:scale-105 lg:w-full sm:mx-auto sm:w-4/6 sm:pb-12 lg:pb-0"
+          src="mubasirvc.png"
+          alt="Awesome hero page image"
+          width="500"
+          height="488"
+        />
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -13,12 +13,12 @@ const Hero = () => {
         <h4 className="text-lg font-semibold text-white xl:text-2xl">
           Hey There
         </h4>
-        <h1 className="xl:text-7xl sm:text-6xl xs:text-3xl font-semibold font-serif mt-2 text-white flex items-center space-x-2">
+        <h1 className="xl:text-7xl lg:text7xl md:text-7xl sm:text-6xl text-4xl font-semibold font-serif mt-2 text-white flex items-center space-x-2">
           <span>I'm</span>
           <span>Mubasir</span>
         </h1>
 
-        <h1 className="sm:text-6xl xs:text-3xl font-semibold font-serif text-white">
+        <h1 className="xl:text-7xl lg:text7xl md:text-7xl sm:text-6xl text-4xl font-semibold font-serif text-white">
           V C
         </h1>
         <h4 className="text-blue-600 mt-4 lg:text-2xl">

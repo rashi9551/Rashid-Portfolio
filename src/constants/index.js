@@ -80,7 +80,7 @@ export const myProjects = [
     desc: "coDraw is an interactive platform that enables users to draw together in real-time while communicating seamlessly. It fosters creativity and collaboration, making it ideal for brainstorming, design, and artistic expression.",
     subdesc:
       "Developed with Next.js, TypeScript, Canvas API, Socket.io, and Tailwind CSS, coDraw offers a smooth, responsive, and engaging experience for multi-user collaboration.",
-    href: "https://codraww.netlify.app/",
+    href: "https://codraw.onrender.com/",
     texture: "/textures/project/codrawv.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {

@@ -80,7 +80,7 @@ export const myProjects = [
     desc: "coDraw is an interactive platform that enables users to draw together in real-time while communicating seamlessly. It fosters creativity and collaboration, making it ideal for brainstorming, design, and artistic expression.",
     subdesc:
       "Developed with Next.js, TypeScript, Canvas API, Socket.io, and Tailwind CSS, coDraw offers a smooth, responsive, and engaging experience for multi-user collaboration.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+    href: "https://codraww.netlify.app/",
     texture: "/textures/project/codrawv.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
@@ -117,7 +117,7 @@ export const myProjects = [
     desc: "eduFlex is an innovative online education platform designed to provide high-quality, accessible learning experiences. Offering a vast library of courses across various domains, it empowers learners to gain new skills and achieve their goals.",
     subdesc:
       "Developed as a robust MERN stack application, eduFlex leverages MongoDB, Express.js, React, and Node.js to ensure seamless performance, scalability, and an engaging user experience.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+    href: "https://educflex.netlify.app/",
     texture: "/textures/project/eduflex.mp4",
     logo: "/assets/project-logo5.png",
     logoStyle: {
@@ -154,7 +154,7 @@ export const myProjects = [
     desc: "Hazi is a cutting-edge e-commerce solution that simplifies online shopping for both businesses and customers. Featuring a user-friendly interface and secure transaction handling, it streamlines the buying and selling experience.",
     subdesc:
       "Built using JavaScript, MongoDB, Node.js, and Handlebars (HBS), Hazi ensures a fast, efficient, and highly customizable platform tailored for modern e-commerce needs.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+    href: "https://hazi-ecommerce.onrender.com/",
     texture: "/textures/project/hazi.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {

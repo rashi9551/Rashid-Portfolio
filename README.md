@@ -11,8 +11,8 @@ A personal portfolio built using **React.js** and **React Fiber** to showcase pr
 
 1. **Clone the repository:**
    ```bash
-   git clone <repo-link>
-   cd portfolio-website
+   git clone git@github.com:mubasirvc/my_portfolio.git
+   cd my-portfolio
 
 2. Install dependencies:  
    ```bash

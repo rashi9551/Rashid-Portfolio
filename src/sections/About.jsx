@@ -118,9 +118,9 @@ const About = () => {
                 <img
                   src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"}
                   alt="copy"
-                  className="sm:w-4 h-4 w-auto"
+                  className="w-5 md:w-6 h-6"
                 />
-                <p className="text-xs lg:text-2xl md:text-lg font-medium text-gray_gradient text-white">
+                <p className="text-lg lg:text-2xl md:text-lg font-medium text-gray_gradient text-white">
                   mubasirvc.dev@gmail.com
                 </p>
               </div>

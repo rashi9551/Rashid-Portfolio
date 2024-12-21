@@ -42,7 +42,7 @@ const Hero = () => {
                 <img
                   src="./assets/linkedin.png"
                   alt="linkedin"
-                  className="w-6 h-6 transform transition-transform duration-300 hover:scale-110"
+                  className="w-5 h-5 md:w-6 md:h-6 transform transition-transform duration-300 hover:scale-110"
                 />
               </a>
             </Tooltip>
@@ -51,7 +51,7 @@ const Hero = () => {
                 <img
                   src="./assets/github.svg"
                   alt="github"
-                  className="w-6 h-6 transform transition-transform duration-300 hover:scale-110"
+                  className="w-5 h-5 md:w-6 md:h-6 transform transition-transform duration-300 hover:scale-110"
                 />
               </a>
             </Tooltip>
@@ -60,7 +60,7 @@ const Hero = () => {
                 <img
                   src="./assets/leetcode.svg"
                   alt="leetcode"
-                  className="w-6 h-6 transform transition-transform duration-300 hover:scale-110"
+                  className="w-5 h-5 md:w-6 md:h-6 transform transition-transform duration-300 hover:scale-110"
                 />
               </a>
             </Tooltip>
@@ -69,7 +69,7 @@ const Hero = () => {
                 <img
                   src="./assets/user-profile.png"
                   alt="resume"
-                  className="w-6 h-6 transform transition-transform duration-300 hover:scale-110"
+                  className="w-5 h-5 md:w-6 md:h-6 transform transition-transform duration-300 hover:scale-110"
                 />
               </a>
             </Tooltip>

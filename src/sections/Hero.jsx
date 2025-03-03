@@ -15,17 +15,17 @@ const Hero = () => {
         </h4>
         <h1 className="xl:text-7xl lg:text7xl md:text-7xl sm:text-6xl text-4xl font-semibold font-serif mt-2 text-white flex items-center space-x-2">
           <span>I'm</span>
-          <span>Mubasir</span>
+          <span>Rashid T</span>
         </h1>
 
         <h1 className="xl:text-7xl lg:text7xl md:text-7xl sm:text-6xl text-4xl font-semibold font-serif text-white">
-          V C
+
         </h1>
         <h4 className="text-blue-600 mt-4 lg:text-2xl">
           --Full Stack Developer. Tech Enthusiast.
         </h4>
         <p className="py-4 text-lg text-gray-500 2xl:py-8 md:py-6 2xl:pr-5">
-          Experienced full-stack developer with 2+ years of expertise in
+          Experienced full-stack developer with 1+ years of expertise in
           JavaScript, React, Next.js, Node.js, NestJS, and some React Native
           experience.
         </p>
@@ -38,7 +38,7 @@ const Hero = () => {
           </a>
           <div className="flex gap-5 mt-10 ml-0 md:ml-3">
             <Tooltip title="linkedin">
-              <a href="https://www.linkedin.com/in/mubasir-vc/" className="">
+              <a href="https://www.linkedin.com/in/muhammedrashidt/" className="">
                 <img
                   src="./assets/linkedin.png"
                   alt="linkedin"
@@ -47,7 +47,7 @@ const Hero = () => {
               </a>
             </Tooltip>
             <Tooltip title="github">
-              <a href="https://github.com/mubasirvc">
+              <a href="https://github.com/rashi9551">
                 <img
                   src="./assets/github.svg"
                   alt="github"
@@ -56,7 +56,7 @@ const Hero = () => {
               </a>
             </Tooltip>
             <Tooltip title="leetcode">
-              <a href="https://leetcode.com/u/mubasirvc/">
+              <a href="https://leetcode.com/u/muhd_rashi__/">
                 <img
                   src="./assets/leetcode.svg"
                   alt="leetcode"
@@ -65,7 +65,7 @@ const Hero = () => {
               </a>
             </Tooltip>
             <Tooltip title="Resume">
-              <a href="https://leetcode.com/u/mubasirvc/">
+              <a href="https://drive.google.com/file/d/1QfnRk_4HGBAKlb8MUady-yxmB_QYeGGc/view?usp=drive_link">
                 <img
                   src="./assets/user-profile.png"
                   alt="resume"

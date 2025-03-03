@@ -121,7 +121,7 @@ const About = () => {
                   className="w-5 md:w-6 h-6"
                 />
                 <p className="text-lg lg:text-2xl md:text-lg font-medium text-gray_gradient text-white">
-                  mubasirvc.dev@gmail.com
+                  rashidroz1361@gmail.com
                 </p>
               </div>
             </div>

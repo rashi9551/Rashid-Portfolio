@@ -42,7 +42,7 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Mohammed V C",
+    name: "Mohammed Azhar",
     position: "Electrical Engineer, Doha",
     img: "assets/mammu.jpg",
     review:
@@ -76,13 +76,13 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "coDraw - Real-Time Collaborative Drawing Platform",
-    desc: "coDraw is an interactive platform that enables users to draw together in real-time while communicating seamlessly. It fosters creativity and collaboration, making it ideal for brainstorming, design, and artistic expression.",
+    title: "GO-CAB - Cab Booking Service",
+    desc: "Built a scalable real-time cab booking service using microservices with Node.js, TypeScript, and MongoDB. Integrated Google Maps and Mapbox for location services, Stripe and Razorpay for secure payments, and Google OAuth for seamless authentication. Enabled real-time tracking and chat with Socket.IO, secured authentication with JWT and Firebase, and implemented live photo verification. Developed admin and driver dashboards with React, Tailwind CSS, and Redux Toolkit. Ensured reliability and scalability with Kubernetes, Docker, RabbitMQ, and gRPC, deploying via CI/CD on AWS and Digital Ocean.",
     subdesc:
-      "Developed with Next.js, TypeScript, Canvas API, Socket.io, and Tailwind CSS, coDraw offers a smooth, responsive, and engaging experience for multi-user collaboration.",
-    href: "https://codraw.onrender.com/",
+      "Developed a real-time cab booking service using microservices in a clean architecture.Deployed the solution on Docker and Kubernetes, ensuring scalability and reliability. Integrated CI/CD pipelines for automated deployment and.continuous improvement.",
+    href: "https://goocab.site",
     texture: "/textures/project/codrawv.mp4",
-    logo: "/assets/project-logo4.png",
+    logo: "/assets/gocablogo.png",
     logoStyle: {
       backgroundColor: "#2A1816",
       border: "0.2px solid #36201D",
@@ -92,8 +92,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Next.js",
-        path: "/assets/nextjs.svg",
+        name: "React.js",
+        path: "/assets/reactjs.png",
       },
       {
         id: 2,
@@ -106,18 +106,33 @@ export const myProjects = [
         path: "/assets/typescript.png",
       },
       {
+        id: 6,
+        name: "NodeJs",
+        path: "/assets/nodejs.png",
+      },
+      {
         id: 4,
-        name: "Html5 Canvas",
-        path: "/assets/html.png",
+        name: "MongoDb",
+        path: "/assets/mongodb.png",
+      },
+      {
+        id: 5,
+        name: "microservice",
+        path: "/assets/microservice.png",
+      },
+      {
+        id: 7,
+        name: "Docker",
+        path: "/assets/docker.png",
       },
     ],
   },
   {
-    title: "eduFlex - Online Learning Platform",
-    desc: "eduFlex is an innovative online education platform designed to provide high-quality, accessible learning experiences. Offering a vast library of courses across various domains, it empowers learners to gain new skills and achieve their goals.",
+    title: "villageFurni - E-commerce Web App",
+    desc: "Developed an e-commerce platform for rustic furniture, powered by Node.js, Express.js, and MongoDB for seamless backend operations. Integrated EJS, CSS, and JavaScript for a sleek, responsive frontend. Deployed on AWS with Nginxfor scalability and reliability.",
     subdesc:
-      "Developed as a robust MERN stack application, eduFlex leverages MongoDB, Express.js, React, and Node.js to ensure seamless performance, scalability, and an engaging user experience.",
-    href: "https://educflex.netlify.app/",
+      "Developed as a robust MERN stack application, villagefurni leverages MongoDB, Express.js, React, and Node.js to ensure seamless performance, scalability, and an engaging user experience.",
+    href: "https://villagefurni.online/",
     texture: "/textures/project/eduflex.mp4",
     logo: "/assets/project-logo5.png",
     logoStyle: {
@@ -129,8 +144,8 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "Ract.js",
-        path: "assets/reactjs.png",
+        name: "HBS",
+        path: "assets/html.png",
       },
       {
         id: 2,
@@ -147,16 +162,21 @@ export const myProjects = [
         name: "mongoDB",
         path: "/assets/mongodb.png",
       },
+      {
+        id: 7,
+        name: "Docker",
+        path: "/assets/docker.png",
+      },
     ],
   },
   {
-    title: "Hazi - Dynamic E-Commerce Platform",
-    desc: "Hazi is a cutting-edge e-commerce solution that simplifies online shopping for both businesses and customers. Featuring a user-friendly interface and secure transaction handling, it streamlines the buying and selling experience.",
+    title: "Real-Time Chat Application - Secure & Scalable Messaging",
+    desc: "A dynamic and interactive chat platform designed for seamless real-time communication, featuring secure user authentication, instant messaging, and rich media sharing.",
     subdesc:
-      "Built using JavaScript, MongoDB, Node.js, and Handlebars (HBS), Hazi ensures a fast, efficient, and highly customizable platform tailored for modern e-commerce needs.",
-    href: "https://hazi-ecommerce.onrender.com/",
+      "Built with Node.js, TypeScript, MongoDB, and WebSockets, this application ensures fast, encrypted messaging with a scalable application for a smooth user experience.",
+    href: "https://github.com/rashi9551/Real-Time-Chat-Application.git",
     texture: "/textures/project/hazi.mp4",
-    logo: "/assets/project-logo2.png",
+    logo: "assets/whatsapp1.png",
     logoStyle: {
       backgroundColor: "#60f5a1",
       background:
@@ -170,11 +190,6 @@ export const myProjects = [
         id: 1,
         name: "JavaScript",
         path: "assets/javascript.png",
-      },
-      {
-        id: 2,
-        name: "HBS",
-        path: "assets/html.png",
       },
       {
         id: 3,
@@ -228,35 +243,24 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Techrender",
-    pos: "Junior Full stack developer",
-    duration: "2024-Jan - Present",
+    name: "The Alter Office",
+    pos: "Associative Backend Developer",
+    duration: "2024-Sept - Dec",
     title:
-      "As a Junior Full Stack Developer, I am responsible for developing and maintaining both front-end and back-end features, ensuring seamless integration and high performance across the tech stack.",
-    icon: "/assets/techrender.png",
+      "As a Associative Backend Developer,Developed a CRM ecosystem bridging high-profile events like IPL, ICC World Cup, Koffee with Karan, and Bigg Boss with. brands for selling event inventories (ads, sponsorships).",
+    icon: "/assets/alter office.webp",
     animation: "victory",
   },
   {
     id: 2,
     name: "Brototype",
     pos: "MERN stack developer intern",
-    duration: "2022-Dec - 2023-Dec",
+    duration: "2023-Sept - 2024-Sept",
     title:
       "During my MERN Stack Developer Internship, I built and optimized full-stack applications using MongoDB, Express, React, and Node.js. I learned numerous new technologies and best practices, and it felt like working in a real company environment, preparing me for future professional challenges.",
     icon: "/assets/brototype.png",
     animation: "clapping",
   },
-
-  // {
-  //   id: 3,
-  //   name: "Notion",
-  //   pos: "Junior Web Developer",
-  //   duration: "2019 - 2020",
-  //   title:
-  //     "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-  //   icon: "/assets/notion.svg",
-  //   animation: "salute",
-  // },
 ];
 
 export const technologies = [

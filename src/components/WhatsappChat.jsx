@@ -5,7 +5,7 @@ import Tooltip from "./Tooltip";
 const WhatsappChat = () => {
   return (
     <a
-      href="https://wa.me/+917736612328"
+      href="https://wa.me/+919544429615"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-10 right-10  text-white rounded-full p-2 shadow-lg transform transition-transform duration-300 hover:scale-110"

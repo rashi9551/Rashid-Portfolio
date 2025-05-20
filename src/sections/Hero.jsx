@@ -65,7 +65,7 @@ const Hero = () => {
               </a>
             </Tooltip>
             <Tooltip title="Resume">
-              <a href="https://drive.google.com/file/d/1QfnRk_4HGBAKlb8MUady-yxmB_QYeGGc/view?usp=drive_link">
+              <a href="https://drive.google.com/file/d/1-ZrqDXUH3Z50tVNaVq7tfjBu8fQYv1bg/view?usp=drive_link">
                 <img
                   src="./assets/user-profile.png"
                   alt="resume"
@@ -78,15 +78,16 @@ const Hero = () => {
       </div>
 
       <div className="pb-10 overflow-hidden md:p-10 lg:p-0 sm:pb-0">
-        <img
-          id="heroImg1"
-          className="transition-all duration-300 ease-in-out hover:scale-105 lg:w-full sm:mx-auto sm:w-4/6 sm:pb-12 lg:pb-0"
-          src="mubasirvc.png"
-          alt="Awesome hero page image"
-          width="500"
-          height="488"
-        />
-      </div>
+  <img
+    id="heroImg1"
+    className="transition-transform duration-500 ease-in-out hover:scale-105 lg:w-full sm:mx-auto sm:w-4/6 sm:pb-12 lg:pb-0 -translate-y-[190px] rounded-2xl shadow-xl hover:shadow-2xl"
+    src="rashid.png"
+    alt="Awesome hero page image"
+    width="300"
+    height="100"
+  />
+</div>
+
     </div>
   );
 };

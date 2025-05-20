@@ -42,37 +42,38 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Mohammed Azhar",
-    position: "Electrical Engineer, Doha",
-    img: "assets/mammu.jpg",
+    name: "Vishal Panchal",
+    position: "Senior Backend Developer at Alter Office",
+    img: "assets/vishal.png",
     review:
-      "Mubasir was fantastic to work with. He developed a billing app that perfectly suited our needs, with a user-friendly interface and robust functionality. His expertise and attention to detail made the entire process seamless.",
+      "Rashid is an outstanding full-stack developer and a trusted colleague at Alter Office. He consistently delivers efficient, scalable solutions and collaborates seamlessly across teams. His technical depth and dedication make him a key asset to any project.",
   },
   {
     id: 2,
-    name: "Jithin Raj",
-    position: "Founder of Techrender",
-    img: "assets/jithin.jpg",
+    name: "Rithul Bathnagar",
+    position: "Backend Developer at Alter Office",
+    img: "assets/rithul.jpeg",
     review:
-      "As the founder of a company, I’ve had the pleasure of working with an exceptional full-stack developer. He excels in both frontend and backend development, delivering high-quality work consistently. Beyond his technical skills, he’s a great person—reliable, professional, and a true team player.",
+      "Working with Rashid at Alter Office has been a great experience. His problem-solving mindset, attention to detail, and ability to work across both frontend and backend make him a reliable and skilled developer. He's truly a valuable teammate.",
   },
   {
     id: 3,
-    name: "Mohammed",
-    position: "MERN Stack Developer at Techrender",
-    img: "assets/mohammed.jpg",
+    name: "Amras Hameed",
+    position: "Software Engineer",
+    img: "assets/amras.jpeg",
     review:
-      "Working alongside my colleague has been an outstanding experience. He brings a perfect balance of frontend and backend expertise, consistently delivering high-quality results. His collaborative approach and problem-solving mindset make him a great asset to any team.",
+      "Rashid was fantastic to work with. He developed a billing app that perfectly suited our needs, with a user-friendly interface and robust functionality. His expertise and attention to detail made the entire process seamless.",
   },
   {
     id: 4,
-    name: "Krishnadas",
-    position: "Team Lead at Techrender",
-    img: "assets/review4.png",
+    name: "Rezin Saleem",
+    position: "Software Developer",
+    img: "assets/rezin.jpeg",
     review:
-      "As a team lead, I’ve had the privilege of mentoring a talented junior developer. He’s highly skilled in both frontend and backend development and demonstrates a strong willingness to learn and grow. His dedication and positive attitude make him a valuable member of our team.",
-  },
+      "As a developer, I’ve had the pleasure of working with an exceptional full-stack developer. He excels in both frontend and backend development, delivering high-quality work consistently. Beyond his technical skills, he’s a great person—reliable, professional, and a true team player.",
+  }
 ];
+
 
 export const myProjects = [
   {

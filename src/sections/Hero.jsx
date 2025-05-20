@@ -81,7 +81,7 @@ const Hero = () => {
   <img
     id="heroImg1"
     className="transition-transform duration-500 ease-in-out hover:scale-105 lg:w-full sm:mx-auto sm:w-4/6 sm:pb-12 lg:pb-0 -translate-y-[190px] rounded-2xl shadow-xl hover:shadow-2xl"
-    src="rashid.png"
+    src="rashid.jpeg"
     alt="Awesome hero page image"
     width="300"
     height="100"

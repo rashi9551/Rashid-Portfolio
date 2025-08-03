@@ -15,7 +15,7 @@ import express from "../assets/express.svg";
 import typeorm from "../assets/typeorm.svg";
 import mysql from "../assets/mysql.svg";
 import github from "../assets/github.svg";
-
+import GraphQl from "/assets/wordpress-graphql-1-removebg-preview.png"
 export const navLinks = [
   {
     id: 1,
@@ -91,41 +91,13 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight1.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/reactjs.png",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 6,
-        name: "NodeJs",
-        path: "/assets/nodejs.png",
-      },
-      {
-        id: 4,
-        name: "MongoDb",
-        path: "/assets/mongodb.png",
-      },
-      {
-        id: 5,
-        name: "microservice",
-        path: "/assets/microservice.png",
-      },
-      {
-        id: 7,
-        name: "Docker",
-        path: "/assets/docker.png",
-      },
+      { id: 1, name: "React.js", path: "/assets/reactjs.png" },
+      { id: 2, name: "TailwindCSS", path: "assets/tailwindcss.png" },
+      { id: 3, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 6, name: "NodeJs", path: "/assets/nodejs.png" },
+      { id: 4, name: "MongoDb", path: "/assets/mongodb.png" },
+      { id: 5, name: "microservice", path: "/assets/microservice.png" },
+      { id: 7, name: "Docker", path: "/assets/docker.png" },
     ],
   },
   {
@@ -143,31 +115,11 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight2.png",
     tags: [
-      {
-        id: 1,
-        name: "HBS",
-        path: "assets/html.png",
-      },
-      {
-        id: 2,
-        name: "Express.js",
-        path: "assets/express.svg",
-      },
-      {
-        id: 3,
-        name: "Node.js",
-        path: "/assets/nodejs.png",
-      },
-      {
-        id: 4,
-        name: "mongoDB",
-        path: "/assets/mongodb.png",
-      },
-      {
-        id: 7,
-        name: "Docker",
-        path: "/assets/docker.png",
-      },
+      { id: 1, name: "HBS", path: "assets/html.png" },
+      { id: 2, name: "Express.js", path: "assets/express.svg" },
+      { id: 3, name: "Node.js", path: "/assets/nodejs.png" },
+      { id: 4, name: "mongoDB", path: "/assets/mongodb.png" },
+      { id: 7, name: "Docker", path: "/assets/docker.png" },
     ],
   },
   {
@@ -187,24 +139,80 @@ export const myProjects = [
     },
     spotlight: "/assets/spotlight2.png",
     tags: [
-      {
-        id: 1,
-        name: "JavaScript",
-        path: "assets/javascript.png",
-      },
-      {
-        id: 3,
-        name: "Node.js",
-        path: "/assets/nodejs.png",
-      },
-      {
-        id: 4,
-        name: "mongoDB",
-        path: "/assets/mongodb.png",
-      },
+      { id: 1, name: "JavaScript", path: "assets/javascript.png" },
+      { id: 3, name: "Node.js", path: "/assets/nodejs.png" },
+      { id: 4, name: "mongoDB", path: "/assets/mongodb.png" },
+    ],
+  },
+  {
+    title: "Real-Time File Processing",
+    desc: "Built a full-stack solution to process large log files asynchronously and at scale with real-time insight delivery. Used BullMQ and Redis for job queuing, Supabase for storage, and streaming file uploads.",
+    subdesc:
+      "Asynchronous log processing pipeline with Node.js microservice, Redis queue, Supabase storage, and a Next.js dashboard for real-time monitoring and uploads.",
+    href: "https://github.com/rashi9551/Real-Time-File-Processing.git",
+    texture: "/textures/project/logprocess.mp4",
+    logo: "/assets/project-logo2.png",
+    logoStyle: {
+      backgroundColor: "#1E1E1E",
+      border: "0.2px solid #444",
+      boxShadow: "0px 0px 60px 0px #00C8964D",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      { id: 1, name: "Next.js", path: nextjs },
+      { id: 2, name: "Node.js", path: nodejs },
+      { id: 3, name: "BullMQ", path:  '/assets/bullmmq-removebg-preview.png'},
+      { id: 4, name: "Redis", path: "/assets/redis.jpg" },
+      { id: 5, name: "Supabase", path: "/assets/arrow-up.png" },
+      { id: 6, name: "Docker", path: docker },
+    ],
+  },
+  {
+    title: "Smart Calendar & User Management System",
+    desc: "Backend-focused calendar system with secure JWT auth and meeting scheduling. Implements login/logout flows, access control, calendar event CRUD, email notifications, and Redis-based performance enhancements.",
+    subdesc:
+      "Secure calendar and auth backend using Node.js, TypeScript, JWT, MongoDB, and nodemailer. Supports real-time updates with Socket.IO and robust user session management.",
+    href: "https://github.com/rashi9551/Schedulify-Calendar.git",
+    texture: "/textures/project/scheduler.mp4",
+    logo: "/assets/project-logo4.png",
+    logoStyle: {
+      backgroundColor: "#2D3748",
+      border: "0.2px solid #4A5568",
+      boxShadow: "0px 0px 60px 0px #667EEA4D",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      { id: 1, name: "TypeScript", path: typescript },
+      { id: 2, name: "JWT", path: "/assets/project-logo2.png" },
+      { id: 3, name: "MongoDB", path: mongodb },
+      { id: 6, name: "Redis", path: "/assets/redis.jpg" },
+    ],
+  },
+  {
+    title: "BuildTrack – Mini Construction Project Management",
+    desc: "A full-stack CRM for managing construction projects. Features include role-based access, project and task management, progress reporting with image uploads, and real-time updates via GraphQL subscriptions.",
+    subdesc:
+      "Built with NestJS and GraphQL on the backend, and a modern dashboard frontend in Next.js using Apollo Client. Integrated Google/GitHub OAuth, file uploads with Multer, and dynamic role-based dashboards.",
+    href: "https://github.com/rashi9551/buildtrack-frontend.git",
+    texture: "/textures/project/construction.mp4",
+    logo: "/assets/user-profile.png",
+    logoStyle: {
+      backgroundColor: "#1A202C",
+      border: "0.2px solid #2D3748",
+      boxShadow: "0px 0px 60px 0px #E53E3E4D",
+    },
+    spotlight: "/assets/spotlight4.png",
+    tags: [
+      { id: 1, name: "Next.js", path: nextjs },
+      { id: 2, name: "NestJS", path: nestjs},
+      { id: 3, name: "GraphQL", path: "/assets/redis.jpg" },
+      { id: 4, name: "MongoDB", path: mongodb},
+      { id: 5, name: "Multer", path: "/assets/project-logo2.png" },
+      { id: 6, name: "Apollo Client", path: "/assets/wordpress-graphql-1-removebg-preview.png" },
     ],
   },
 ];
+
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
@@ -316,6 +324,11 @@ export const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name:"GraphQL",
+    icon:GraphQl
+    
   },
 
   // {
